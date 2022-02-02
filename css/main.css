@@ -1,10 +1,51 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 body{
-    background-color: black;
-    color: white;
-    border: 5px solid rgba(15, 15, 91, 0.975);
+    font-family: 'Montserrat', sans-serif;
+    background-color: #041F31;
+    color: #BDEBEA;
+}
+
+.container{
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    /* display: flex; */
+}
+
+.links-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-flexed{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #BDEBEA;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.right-flexed .button-gradient{
+    padding: 1%;
+    width: 7rem;
+    background-color: gradient;
 }
