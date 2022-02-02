@@ -1,23 +1,55 @@
+:root{
+    --main-color: #041F31;
+    --font-color: #BDEBEA;
+    /* --hover-color:
+        --link-color:
+        --gradient-color:
+    */
+    --accent-color: #D7E5EC;
+}
+
 *{
     margin: 0;
     padding: 0;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
 
+/* Typography */
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2{
+    color: var(--accent-color);
+}
+
+h3{
+    font-family: 'Tinos', serif;
+    font-weight: 300;
+    color: var(--accent-color);
+}
+
 body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #041F31;
-    color: #BDEBEA;
+    background-color: var(--main-color);
+    color: var(--font-color);
 }
 
 .container{
-    margin-left: 7rem;
-    margin-right: 7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 header{
     margin: 0;
     padding: 0;
+    margin-bottom: 2rem;
 }
 
 nav{
@@ -27,14 +59,15 @@ nav{
 .links-wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .right-flexed{
-    width: 20%;
+    text-align: center;
+    justify-content: center;
     display: flex;
-    justify-content: space-around;
-    margin-right: 1rem;
+    flex-direction: column;
 }
 
 a{
@@ -44,8 +77,37 @@ a{
     margin-bottom: 1rem;
 }
 
+.button-gradient{
+    background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+    border-radius: 5px;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .right-flexed .button-gradient{
-    padding: 1%;
+    padding: 0.5rem;
     width: 7rem;
-    background-color: gradient;
+}
+
+@media screen and (min-width: 1024px){
+    .container{
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+
+    .links-wrapper{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-flexed{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 1rem;
+    }
 }
