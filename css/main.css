@@ -33,7 +33,6 @@ h2{
 }
 
 h3{
-    font-family: 'Tinos', serif;
     font-weight: lighter;
     font-size: 1.2rem;
     color: var(--accent-color);
@@ -109,6 +108,10 @@ a{
     flex-direction: column-reverse;
 }
 
+.title{
+    font-family: 'Tinos', serif;
+}
+
 #me{
     max-width: 100%;
     height: auto;
@@ -155,6 +158,35 @@ a{
     font-size: 0.7rem;
     margin-bottom: 0.2rem;
 }
+
+.skills-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.img-fixed {
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+i{
+    font-size: 7rem;
+}
+
+.fa-js-square{
+    color: #F7DF1E;
+}
+
 
 @media screen and (min-width: 700px){
     .container{
