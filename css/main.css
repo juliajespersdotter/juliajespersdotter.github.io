@@ -206,6 +206,7 @@ button a:hover{
     justify-content: center;
     align-items: center;
     width: 20%;
+    padding-bottom: 7rem;
 }
 
 .img-fixed {
@@ -255,6 +256,7 @@ i{
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    padding-bottom: 7rem;
 }
 
 footer p{
@@ -336,6 +338,11 @@ footer p{
     .container{
         margin-left: 14rem;
         margin-right: 14rem;
+    }
+
+    .section-padding{
+        padding-top: 20vh;
+        padding-bottom: 20vh;
     }
 
     button{
