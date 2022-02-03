@@ -317,7 +317,7 @@ footer p{
         margin: 0;
         
     }
-    .project-wrapper{
+    .projects-wrapper{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -330,20 +330,58 @@ footer p{
         font-size: 18px;
     }
 
-    h3{
-        font-size: 1.2rem;
+    .container{
+        margin-left: 14rem;
+        margin-right: 14rem;
     }
 
-    .container{
-        margin-left: 12rem;
-        margin-right: 12rem;
+    button{
+        font-size: 1rem;
     }
 
     .button-gradient{
         padding: 0.7rem;
     }
 
+    .right-flexed{
+        width: 20%;
+    }
+
+    #hero{
+        justify-content: space-between;
+    }
+
+    #hero-text{
+        width: 50%;
+    }
+
+    #me{
+        /* background: linear-gradient(90deg, #fff 0%, #00F5A0  100%);
+        background-position:0px 255px;
+        border-radius: 20rem; */
+        width: 30rem;
+    }
+
+    #hero-text h1{
+        font-size: 2.8rem;
+    }
+
     #long-button{
         width: 30rem;
+    }
+
+    .projects-wrapper{
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .project{
+        padding: 2%;
+        width: 50%;
+    }
+
+    .skill{
+        width: 7%;
     }
 }
