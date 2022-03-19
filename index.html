@@ -28,9 +28,9 @@
                         <a href="#">Home</a>
     
                         <div class="right-flexed">
-                            <a href="assets/documents/Julia Jespersdotter Högman - CV.pdf">CV</a>
-                            <a href="assets/html/projects.html">Projects</a>
-                            <button class ="button-gradient" href="mailto:julia.jespersdotter@gmail.com">Contact</button>
+                            <a class="nav-links" href="./assets/documents/CV.pdf" target="_blank">CV</a>
+                            <a class="nav-links" href="./assets/html/projects.html">Projects</a>
+                            <button class="button-gradient"><a href="mailto:julia.jespersdotter@gmail.com" target="_blank">Contact</a></button>
                         </div>
                     </div>
                 </nav>
@@ -42,16 +42,17 @@
                     <h3 class="title">FRONT END DEVELOPER</h3>
                     <h1>Hi, I'm Julia Jespersdotter</h1>
                     <p>I'm a front end developer student based in Malmö open to internship opportunities to expand my skillset.</p>
-                    <button class ="button-gradient" href="mailto:julia.jespersdotter@gmail.com">Contact me</button>
+                    <button class ="button-gradient"><a href="mailto:julia.jespersdotter@gmail.com" target="_blank">Contact me</a></button>
                 </div>
                 
-                <img id="me" src="/assets/images/juliajespersdotter.png" alt="">
+                <div class="img-wrapper">
+                    <img id="me" src="./assets/images/juliajespersdotter.jpg" alt="">
+                </div>
             </div>
     
             <!-- About me section-->
             <section id="about" class="section-padding">
                 <article>
-                    <!-- <hr id="line"> -->
                     <h2>About me</h2>
                     <p>I'm a passionate and driven student working towards becoming a full stack developer by getting my foot in the door with my frontend knowledge. I develop websites with HTML, CSS and JavaScript. I strive towards making functional and accessible web services and experiences.</p>
                 </article>
@@ -60,41 +61,53 @@
             <!-- Projects -->
             <section id="projects" class="section-padding">
                 <h2>Projects</h2>
-                <div class="projects-wrapper">
+                <div class="projects projects-wrapper">
                     <article class="project">
-                        <img class ="project-image" src="" alt="">
+                        <img class ="project-image" src="./assets/images/almi-page.png" alt="">
         
-                        <div class="desc-wrapper">
-                            <h3>Classmate Guesser</h3>
+                        <div class="desc-wrapper desc-height">
+                            <div class="text-wrapper">
+                            <h3>ALMI ONEPAGER DESIGN</h3>
         
                             <div class="tools-wrapper">
                                 <span class="button-gradient">HTML</span>
-                                <span class="button-gradient">JAVASCRIPT</span>
+                                <span class="button-gradient">UX/UI</span>
                                 <span class="button-gradient">CSS</span>
                                 <span class="button-gradient">BOOTSTRAP</span>
                             </div>
-        
                             <p>
-                                A project made in Javascript course where we wanted to learn the names of our classmates using this fun little game. 
+                                An exercise in design using tools such as Adobe UX, Illustrator and Photoshop to create wireframes and illustrations for this responsive onepager demonstrating a hypothetical service.
                             </p>
+                        </div>
+        
+
+                            <div class="button-wrapper">
+                                <button class ="button-gradient link-button"><a class="link-button" href="https://priceless-jang-40750f.netlify.app/" target="_blank">Visit page</a></button>
+                                <button class ="button-gradient link-button"><a class="link-button" href="https://github.com/juliajespersdotter/almi" target="_blank">Visit repo</a></button>
+                            </div>
                         </div>
                     </article>
                     <article class="project">
-                        <img class ="project-image" src="" alt="">
+                        <img class ="project-image" src="./assets/images/oddhill.png" alt="">
         
-                        <div class="desc-wrapper">
-                            <h3>TITLE PROJECT</h3>
-        
-                            <div class="tools-wrapper">
-                                <span class="button-gradient">HTML</span>
-                                <span class="button-gradient">JAVASCRIPT</span>
-                                <span class="button-gradient">CSS</span>
-                                <span class="button-gradient">BOOTSTRAP</span>
+                        <div class="desc-wrapper desc-height">
+                            <div class="text-wrapper">
+                                <h3>ODD HILL CLONE</h3>
+            
+                                <div class="tools-wrapper">
+                                    <span class="button-gradient">HTML</span>
+                                    <span class="button-gradient">CSS</span>
+                                </div>
+            
+                                <p>
+                                    A clone of <a id="text-link" href="www.oddhill.se">Odd Hill's</a> front page made with HTML and CSS to practice mimicking other designs and making it responsive. The 
+                                </p>
                             </div>
-        
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nemo, unde adipisci sunt iure deleniti laboriosam temporibus at itaque expedita ea autem dolores, quasi sint beatae molestias. Placeat, officia dolorum.
-                            </p>
+
+                            <div class="button-wrapper">
+                                <button class ="button-gradient link-button"><a class="link-button" href="https://determined-wescoff-2dff9f.netlify.app/" target="_blank">Visit page</a></button>
+                                <button class ="button-gradient link-button"><a class="link-button" href="https://github.com/juliajespersdotter/odd-hill-clone" target="_blank">Visit repo</a></button>
+                            </div>
                         </div>
                     </article>
 
@@ -144,16 +157,16 @@
             <footer>
                 <div class="social-links">
                     <div class="link-wrapper">
-                        <a href="mailto:julia.jespersdotter@gmail.com"><i class="fas fa-envelope"></i></a>
-                        <a href="mailto:julia.jespersdotter@gmail.com">GMAIL</a>
+                        <a href="mailto:julia.jespersdotter@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                        <a href="mailto:julia.jespersdotter@gmail.com" target="_blank">GMAIL</a>
                     </div>
                     <div class="link-wrapper">
-                        <a href="https://www.linkedin.com/in/julia-jespersdotter-hogman/"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.linkedin.com/in/julia-jespersdotter-hogman/">LINKEDIN</a>
+                        <a href="https://www.linkedin.com/in/julia-jespersdotter-hogman/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/julia-jespersdotter-hogman/" target="_blank">LINKEDIN</a>
                     </div>
                     <div class="link-wrapper">
-                        <a href="https://github.com/juliajespersdotter"><i class="fab fa-github"></i></a>
-                        <a href="https://github.com/juliajespersdotter">GITHUB</a>
+                        <a href="https://github.com/juliajespersdotter" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/juliajespersdotter" target="_blank">GITHUB</a>
                     </div>
                 </div>        
                 
