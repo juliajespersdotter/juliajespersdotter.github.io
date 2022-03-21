@@ -197,21 +197,12 @@ button a:hover{
 }
 
 .desc-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: space-between;
     padding: 1.2rem;
     margin: 5px;
 }
 
-.desc-wrapper p{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
 .desc-wrapper button{
-    justify-content:left;
+    justify-content: flex-end;
 }
 
 .tools-wrapper{
